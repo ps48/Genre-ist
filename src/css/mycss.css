@@ -1,0 +1,125 @@
+html,body
+{
+  margin: auto;
+  padding: 0;
+}
+
+@font-face {
+    font-family: rb;
+    src: url(Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: rl;
+    src: url(Roboto-Light.ttf);
+}
+
+h1
+{
+  font-size:65px;
+}
+
+h2
+{
+  font-size:36px;
+}
+
+.rb
+{
+  font-family:rb;
+}
+
+.rl
+{
+  font-family:rl;
+}
+
+.lblue
+{
+  color:#00ffe4;
+}
+
+.wh
+{
+  color:#fff;
+}
+
+.headcnt
+{
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.bf
+{
+  font-size:25px;
+}
+
+.spacer
+{
+  margin-top:40px;
+}
+
+.center
+{
+  text-align:center;
+}
+
+.jumbotron,.navbar,.navbar-inverse
+{
+  background: transparent;
+  border: 0px;
+}
+
+.navbar
+{
+  margin-right:10%;
+  margin-left:10%;
+}
+
+.navbar .navbar-nav > li >a
+{
+    color: #FFF;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    color:#00ffe4 ;
+    border:transparent;
+}
+.navbar .navbar-nav > .active  {
+    color: #FFF;
+
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+    color: #FFF;
+    border:transparent;
+
+}
+
+.navbar .navbar-nav > .open > a .caret,
+.navbar .navbar-nav > .open > a:hover .caret,
+.navbar .navbar-nav > .open > a:focus .caret {
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+}
+.navbar .navbar-toggle {
+    border-color: #FFF;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #00ffe4;
+    border:transparent;
+}
+
+
+
+#home
+{
+
+  background-image: url("back.jpg");
+  background-size:cover;
+
+}
