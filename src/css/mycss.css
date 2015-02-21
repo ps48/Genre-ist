@@ -1,3 +1,4 @@
+/*--------------@uth0r ps48--------------*/
 html,body
 {
   margin: auto;
@@ -19,9 +20,9 @@ h1
   font-size:65px;
 }
 
-h2
+a
 {
-  font-size:36px;
+  cursor:pointer;
 }
 
 .rb
@@ -60,9 +61,70 @@ h2
   margin-top:40px;
 }
 
+.smspacer
+{
+  margin-top:20px;
+}
+
 .center
 {
   text-align:center;
+}
+
+.ring
+{
+  border: solid 5px;
+  border-radius: 25px;
+  border-color:#00ffe4;
+}
+
+.cimg
+{
+  height:200px;
+  width:200px;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.scrollToTop
+{
+  width:50px;
+  height:65px;
+  text-align:center;
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #00ffe4;
+  text-decoration: none;
+  position:fixed;
+  bottom:5px;
+  right:20px;
+  display:none;
+  background: url('../images/arrow_up.png') no-repeat 0px 20px;
+  z-index:20;
+}
+
+.scrollToTop:hover
+{
+  text-decoration:none;
+}
+
+.btnclk
+{
+  margin:10px;
+
+}
+
+.con
+{
+  font-size:20px;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------Bootstrap override-------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+hr
+{
+  width:75%;
 }
 
 .jumbotron,.navbar,.navbar-inverse
@@ -71,7 +133,7 @@ h2
   border: 0px;
 }
 
-.navbar
+.navbar,.icons
 {
   margin-right:10%;
   margin-left:10%;
@@ -114,12 +176,59 @@ h2
     border:transparent;
 }
 
-
+/*----------------------------Divs----------------------------------------------------------------------------------*/
 
 #home
 {
 
   background-image: url("back.jpg");
   background-size:cover;
+  z-index:100;
+  box-shadow: 0px 7px 25px #000;
+  position:relatve;
 
+}
+
+#div2
+{
+  background-image:url("../images/msbg.jpg");
+  background-size:cover;
+  z-index:100;
+  box-shadow: 0px 7px 25px #000;
+
+
+}
+
+
+#div3
+{
+  background-image:url("../images/db.jpg");
+  background-size:cover;
+  z-index:50;
+  box-shadow: 0px 7px 25px #000;
+  position:relatve;
+}
+
+#dbcon
+{
+  border: solid 5px;
+  border-color: #FFF;
+  border-radius:10px;
+  height:40%;
+  overflow-y:visible;
+}
+
+#div4
+{
+  background:#535353;
+  z-index:-4;
+  box-shadow: 0px 10px 25px #000;
+  position:relatve;
+}
+
+#div5
+{
+  background:#4a8ddf;
+  z-index:-5;
+  position:relatve;
 }
