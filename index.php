@@ -68,11 +68,11 @@
 
         <div class="row icons center">
           <div class=" col-lg-4 col-md-4 col-sm-4 ">
-            <div class="smspacer"></div><image src="./images/database.png"  ></img>
+            <div class="smspacer"></div><image src="./images/database.png" class="rsize" ></img>
           </div>
           <div class=" col-lg-4 col-md-4 col-sm-4 wh rb "></div>
           <div class=" col-lg-4 col-md-4 col-sm-4 ">
-            <div class="smspacer"></div><image src="./images/cloud.png"></img>
+            <div class="smspacer"></div><image src="./images/cloud.png" class="rsize" ></img>
           </div>
         </div>
 
