@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Init
     wavesurfer.init(options);
     // Load audio from URL
-    wavesurfer.load('src/wave/example/media/demo.wav');
+    wavesurfer.load('files/demo.wav');
 
     // Regions
     if (wavesurfer.enableDragSelection) {
