@@ -148,6 +148,29 @@
                   here!
               </p>
 
+               <form action="php/upload.php" method="post" enctype="multipart/form-data" style="text-align:center;">
+                 <div class="row spacer"></div>
+
+
+                <?php
+
+                    if(isset($_GET['genre']))
+                    {
+                      echo" <div class='row spacer'></div> <div><h2>The Genre is : ".$_GET['genre']."<h2></div> ";
+                    }
+                    else
+                    {
+                      echo"<h2> Select your Song </h2><div class='row spacer'></div>
+                          <input class='btn btn-info' type='file' name='fileToUpload' id='fileToUpload' style='width:100%;' >
+                             <div class='row spacer'></div>
+                          <input type='submit' value='Upload File' name='submit' class='btn btn-primary' style='width:100%;'>";
+                    }
+
+                  ?>
+
+                
+              </form>
+
         <div class="row spacer"></div>
         <div class="row spacer"></div>
 
@@ -236,7 +259,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-2" >
-            <img src="./src/images/ps48.jpg" class="img-circle cimg" ></img>
+            <img src="./images/ps48.jpg" class="img-circle cimg" ></img>
             <div class="smspacer"></div>
             <div class="center rl wh">Pratik Shenoy</div>
           </div>
@@ -245,7 +268,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-2" >
-            <img src="./src/images/ps48.jpg" class="img-circle cimg" ></img>
+            <img src="./images/ps48.jpg" class="img-circle cimg" ></img>
             <div class="smspacer"></div>
             <div class="center rl wh">Pratik Shenoy</div>
           </div>
@@ -254,7 +277,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-2" >
-            <img src="./src/images/ps48.jpg" class="img-circle cimg" ></img>
+            <img src="./images/ps48.jpg" class="img-circle cimg" ></img>
             <div class="smspacer"></div>
             <div class="center rl wh">Pratik Shenoy</div>
           </div>
